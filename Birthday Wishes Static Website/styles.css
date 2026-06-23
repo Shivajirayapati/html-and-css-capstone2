@@ -1,0 +1,76 @@
+body{
+      font-family: "Luxurious Roman", serif;
+      color: rgb(188, 134, 62);
+      background-color:  #e3dddd;
+      text-shadow: 0px 0px 1.5px #fce702;
+       text-align: center;
+}
+.avatar{
+    width: 250px;
+    border-radius: 50%;
+    border: 5px solid gold ;
+}
+.m-bdate{
+    margin-top: 0px;
+}
+.m-age,.m-bdate{
+    background: #ffffff;
+    text-shadow: 0px 0px 1px #fce702;
+     padding: 5px 20px ;
+     border-radius: 2px;
+     border: 2px solid  ;
+}
+#main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.gif-img{
+    width: 400px;
+    height: 400px;
+    border: 10px solid #fce702;
+    background-image: url("./images/Gift-cover.png");
+    background-size: cover;
+    margin: 0 auto;
+    border-radius: 10px ;
+}
+.gift-card{
+    padding: 20px;
+  
+}
+.gif-title{
+    margin-bottom: 50px;
+}
+#gif-cheers{
+    height: 200px;
+}
+/* Hover Section */
+#gif-happy:hover{
+    background-image: url("./images/happy.gif");
+    cursor: pointer;
+}
+#gif-hot:hover{
+    background-image: url("./images/hot.gif");
+    cursor: pointer ;
+}
+#gif-genius:hover{
+    background-image: url("./images/genius.gif");
+    cursor: pointer ;
+}
+#gif-badass:hover{
+    background-image: url("./images/badass.gif");
+    cursor: pointer ;
+}
+#gif-cheers:hover{
+     background-image: url("./images/cheers.gif");
+    cursor: pointer ;
+}
+#footer{
+    width: 400px;
+    font-size: x-large;
+    font-style: italic;
+    margin: 0 auto;
+}
+a{
+    color: rgb(79, 74, 48);
+}

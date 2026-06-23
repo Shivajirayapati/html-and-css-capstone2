@@ -1,2 +1,2 @@
 # html-and-css-capstone2
-Creating interactive static website with gifs
+Created interactive birthday wishing static website with gifs as part of my html css course
